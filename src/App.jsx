@@ -13,7 +13,7 @@ import myLoveImg from "./assets/hehe.svg";
 import Image from "./Image";
 
 function App() {
-  const [progress, setProgress] = createSignal(99);
+  const [progress, setProgress] = createSignal(0);
   const [btnMessage, setBtnMessage] = createSignal("Click");
   const [openMail, setOpenMail] = createSignal(false);
 
